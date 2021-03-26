@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список покупок</title>
+</head>
+
+<body>
+    <header>
+        <h1>Список покупок</h1>
+        <nav>
+            <h3>Оглавление</h3>
+            <ul>
+                <li><a href="#fset1">Дата и комментарии</a></li>
+                <li><a href="#fset2">Сдоба</a></li>
+                <li><a href="#fset3">Овощи</a></li>
+                <li><a href="#fset4">Фрукты</a></li>
+                <li><a href="#fset5">Молочные продукты</a></li>
+                <li><a href="#fset6">Мясо</a></li>
+                <li><a href="#fset7">Дополнительные покупки</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form action>
+            <fieldset id="fset1">
+                <legend>
+                    <h3>Дата и комментарии</h3>
+                </legend>
+                <label for="Дата">Дата покупки</label>
+                <input type="date" name="Дата" id="Дата"><br><br>
+                <label for="Комментарии">Комментарии</label>
+                <textarea name="Комментарии" id="Комментарии"></textarea>
+            </fieldset>
+            <fieldset id="fset2">
+                <legend>
+                    <h3>Сдоба</h3>
+                </legend>
+                <ul>
+                    <li>
+                        <label for="Сдоба1">Хлеб</label>
+                        <input type="checkbox" name="Хлеб" id="Сдоба1"><br>
+                        <label for="Кол1.1">Введите количество:</label>
+                        <input type="text" name="Количество" id="Кол1.1">
+                    </li>
+                    <li>
+                        <label for="Сдоба2">Булочка</label>
+                        <input type="checkbox" name="Булочка" id="Сдоба2"><br>
+                        <label for="Кол1.2">Введите количество:</label>
+                        <input type="text" name="Количество" id="Кол1.2">
+                    </li>
+                    <li>
+                        <label for="Сдоба3">Круассан</label>
+                        <input type="checkbox" name="Круассан" id="Сдоба3"><br>
+                        <label for="Кол1.3">Введите количество:</label>
+                        <input type="text" name="Количество" id="Кол1.3">
+                    </li>
+                    <li>
+                        <label for="Сдоба4">Рогалик</label>
+                        <input type="checkbox" name="Рогалик" id="Сдоба4"><br>
+                        <label for="Кол1.4">Введите количество:</label>
+                        <input type="text" name="Количество" id="Кол1.4">
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset id="fset3">
+                <legend>
+                    <h3>Овощи</h3>
+                </legend>
+                <ul>
+                    <li>
+                        <label for="Овощи1">Картошка</label>
+                        <input type="checkbox" name="Картошка" id="Овощи1"><br>
+                        <label for="Кол2.1">Введите количество:</label>
+                        <input type="text" name="Количество" id="Кол2.1">
+                    </li>
+                    <li>
+                        <label for="Овощи2">Помидоры</label>
+                        <input type="checkbox" name="Помидоры" id="Овощи2"><br>
+                        <label for="Кол2.2">Введите количество:</label>
+                        <input type="text" name="Количество" id="Кол2.2">
+                    </li>
+                    <li>
+                        <label for="Овощи3">Кукуруза</label>
+                        <input type="checkbox" name="Кукуруза" id="Овощи3"><br>
+                        <label for="Кол2.3">Введите количество:</label>
+                        <input type="text" name="Количество" id="Кол2.3">
+                    </li>
+                    <li>
+                        <label for="Овощи4">Свёкла</label>
+                        <input type="checkbox" name="Свёкла" id="Овощи4"><br>
+                        <label for="Кол2.4">Введите количество:</label>
+                        <input type="text" name="Количество" id="Кол2.4">
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset id="fset4">
+                <legend>
+                    <h3>Фрукты</h3>
+                </legend>
+                <ul>
+                    <li>
+                        <label for="Фрукты1">Яблоки</label>
+                        <input type="checkbox" name="Яблоки" id="Фрукты1"><br>
+                        <label for="Кол3.1">Введите количество:</label>
+                        <input type="text" name="Количество" id="Кол3.1">
+                    </li>
+                    <li>
+                        <label for="Фрукты2">Бананы</label>
+                        <input type="checkbox" name="Бананы" id="Фрукты2"><br>
+                        <label for="Кол3.2">Введите количество:</label>
+                        <input type="text" name="Количество" id="Кол3.2">
+                    </li>
+                    <li>
+                        <label for="Фрукты3">Мандарины</label>
+                        <input type="checkbox" name="Мандарины" id="Фрукты3"><br>
+                        <label for="Кол3.3">Введите количество:</label>
+                        <input type="text" name="Количество" id="Кол3.3">
+                    </li>
+                    <li>
+                        <label for="Фрукты4">Арбуз</label>
+                        <input type="checkbox" name="Арбуз" id="Фрукты4"><br>
+                        <label for="Кол3.4">Введите количество:</label>
+                        <input type="text" name="Количество" id="Кол3.4">
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset id="fset5">
+                <legend>
+                    <h3>Молочные продукты</h3>
+                </legend>
+                <ul>
+                    <li>
+                        <label for="Молоко1">Молоко</label>
+                        <input type="checkbox" name="Молоко" id="Молоко1"><br>
+                        <label for="Кол4.1">Введите количество:</label>
+                        <input type="text" name="Количество" id="Кол4.1">
+                    </li>
+                    <li>
+                        <label for="Молоко2">Йогурт</label>
+                        <input type="checkbox" name="Йогурт" id="Молоко2"><br>
+                        <label for="Кол4.2">Введите количество:</label>
+                        <input type="text" name="Количество" id="Кол4.2">
+                    </li>
+                    <li>
+                        <label for="Молоко3">Кефир</label>
+                        <input type="checkbox" name="Кефир" id="Молоко3"><br>
+                        <label for="Кол4.3">Введите количество:</label>
+                        <input type="text" name="Количество" id="Кол4.3">
+                    </li>
+                    <li>
+                        <label for="Молоко4">Творог</label>
+                        <input type="checkbox" name="Творого" id="Молоко4"><br>
+                        <label for="Кол4.4">Введите количество:</label>
+                        <input type="text" name="Количество" id="Кол4.4">
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset id="fset6">
+                <legend>
+                    <h3>Мясо</h3>
+                </legend>
+                <label for="Мясо">Выбери мясо какого животного купить</label>
+                <select name="Мясо" id="Мясо">
+                    <option value="Говядина">Говядина</option>
+                    <option value="Свинина">Свинина</option>
+                    <option value="Птица">Птица</option>
+                    <option value="Не выбрано" hidden selected>Не выбрано</option>
+                </select>
+                <fieldset>
+                    <legend>Выбери часть мяса</legend>
+                    <input type="radio" name="Части" id="часть1" value="Грудинка">
+                    <label for="часть1">Грудинка</label><br>
+                    <input type="radio" name="Части" id="часть2" value="Ножки">
+                    <label for="часть2">Ножки</label><br>
+                    <input type="radio" name="Части" id="часть3" value="Спинка">
+                    <label for="часть3">Спинка</label><br>
+                    <input type="radio" name="Части" id="часть4" value="Другое">
+                    <label for="часть4">Другое</label>
+                </fieldset>
+            </fieldset>
+            <fieldset id="fset7">
+                <legend>
+                    <h3>Дополнительные покупки</h3>
+                </legend>
+                <label for="Доп">Обязательно сделай это</label><br>
+                <select name="Доп.покупки" id="Доп">
+                    <option value="Пакетик">Пакетик</option>
+                    <option value="Пополнить счёт">Пополнить счёт</option>
+                    <option value="Бонусная карта">Сделать бонусную карту</option>
+                    <option value="Всё">Всё и сразу</option>
+                    <option value="По умолчанию" hidden selected>Выбери</option>
+                </select>
+            </fieldset>
+            <br><input type="submit" value="Подтведить">
+        </form>
+    </main>
+    <footer>
+        <a href="#">
+            <h4>Наверх</h4>
+        </a>
+    </footer>
+</body>
+
+</html>
